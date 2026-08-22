@@ -30,79 +30,31 @@ Disclaimer
 
 SaaS/Hosted Platforms
 
-Salt Security
-
-API security platform focused on API discovery, API posture management, behavioral analysis, vulnerability identification, and runtime threat protection.
-
-Noname Security
-
-API security platform providing API discovery, inventory, posture management, risk analysis, runtime protection, and API governance.
-
-42Crunch
-
-API security platform centered around OpenAPI security auditing, API testing, API governance, conformance validation, and runtime protection.
-
-Traceable AI
-
-API security platform providing API discovery, runtime intelligence, behavioral analytics, vulnerability detection, and attack protection.
-
-Cequence Security
-
-Unified API and application protection platform covering API discovery, API security posture, bot management, threat detection, and runtime protection.
-
-Akamai API Security
-
-API security capabilities integrated with Akamai's edge and application security platform for API discovery, risk analysis, and threat protection.
-
-Imperva API Security
-
-API security platform offering API discovery, endpoint risk assessment, sensitive-data identification, behavioral monitoring, and runtime protection.
-
-Ping Identity API Intelligence
-
-API intelligence and security capabilities within the Ping Identity ecosystem, supporting API visibility, access management, authentication, and security analytics.
-
-Cloudflare API Shield
-
-API security capabilities including API discovery, schema validation, mTLS, authentication, and edge-based API protection.
-
-Wallarm
-
-API and application security platform focused on API discovery, vulnerability detection, API threat prevention, and runtime attack detection.
+| Platform | Description | Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **Salt Security** | API security platform focused on API discovery, API posture management, behavioral analysis, vulnerability identification, and runtime threat protection. | Starts at ~$250,000/year (Starter tier on AWS Marketplace for up to 100M monthly API requests and 1,000 endpoints; custom private offers available) | No perpetual free tier. Offers **Salt Surface** (free external attack surface scan & API posture risk assessment) and guided demo sandbox environment. |
+| **Noname Security** (Akamai API Security) | API security platform providing API discovery, inventory, posture management, risk analysis, runtime protection, and API governance. | Starts at ~$100,000/year (Enterprise annual contract / AWS Marketplace private offers scaled by monitored environments and API traffic) | No perpetual free tier. Offers a **30-day proof-of-concept (POC)** and guided evaluation trial through sales and partner channels. |
+| **42Crunch** | API security platform centered around OpenAPI security auditing, API testing, API governance, conformance validation, and runtime protection. | Starts at **$9/month** (Individual Developer plan with 1,000 security tokens/mo; Team plan starts at $349/month for 10 users & 250 endpoints) | **Free Forever plan**: 100 API operation-level audits and scans per month in IDE for non-commercial use. Also offers a **14-day free trial** with full platform features (no credit card required). |
+| **Traceable AI** | API security platform providing API discovery, runtime intelligence, behavioral analytics, vulnerability detection, and attack protection. | Starts at **$10/endpoint/month** (Team tier; AWS Marketplace private offers start at ~$20,000/year for 250 endpoints) | **Free Forever tier**: Basic API discovery and cataloging ($0/endpoint/month for inventory). Also offers a **14-day free trial** with full threat detection and API security testing capabilities. |
+| **Cequence Security** | Unified API and application protection platform covering API discovery, API security posture, bot management, threat detection, and runtime protection. | Starts at ~$122,000/year (AWS Marketplace contract tier covering up to 500 API endpoints with Managed WAAP / API Sentinel) | No perpetual free tier. Offers a **30-day free trial / evaluation** and **API Spyder** external attack surface assessment. |
+| **Akamai API Security** | API security capabilities integrated with Akamai's edge and application security platform for API discovery, risk analysis, and threat protection. | Starts at ~$100,000/year (Annual enterprise subscription / AWS Marketplace private offers scaled by API call volume and monitored domains) | No perpetual free tier. Offers a **30-day vendor-assisted POC / trial** with traffic shadow analysis. |
+| **Imperva API Security** | API security platform offering API discovery, endpoint risk assessment, sensitive-data identification, behavioral monitoring, and runtime protection. | Starts at **$400/month** (Entry Cloud WAF/API plan; enterprise tiers range ~$10,000–$25,000/year on AWS Marketplace) | Offers a **30-day free trial** with full platform access, subject to a 100 Mbps traffic limit during the evaluation period. |
+| **Ping Identity API Intelligence** | API intelligence and security capabilities within the Ping Identity ecosystem, supporting API visibility, access management, authentication, and security analytics. | Starts at ~$10,000/year (Add-on module to PingOne; PingOne foundational plans start at ~$20,000/year or $3–$6/user/month for workforce) | Offers a **30-day free trial** of the PingOne cloud platform (core IAM and API connectors; guided demo sandbox for API Intelligence). |
+| **Cloudflare API Shield** | API security capabilities including API discovery, schema validation, mTLS, authentication, and edge-based API protection. | Included in **Free plan ($0/mo)**; paid upgrades start at **$20/month** (Pro billed annually, $25/mo monthly) and **$200/month** (Business billed annually, $250/mo monthly) | **Free Forever plan**: Up to 100 saved endpoints, 5 uploaded OpenAPI schemas, and 200 kB max schema size with block actions. |
+| **Wallarm** | API and application security platform focused on API discovery, vulnerability detection, API threat prevention, and runtime attack detection. | Starts at **$833/month** (~$10,000/year for Advanced API Security) or account-based flat tiers on AWS Marketplace | **Free Forever tier**: Infrastructure Discovery product with unlimited asset mapping across connected AWS accounts. Also provides a **14-day free trial** of Advanced API Security (up to 500,000 requests/month included). |
 
 Additional Notable SaaS / Hosted Options
 
-Akamai App & API Protector
-
-WAAP platform combining WAF, bot management, DDoS protection, and API security capabilities.
-
-Fastly Next-Gen WAF
-
-Edge-based application and API protection platform with WAF, bot mitigation, and security observability.
-
-F5 Distributed Cloud API Security
-
-API discovery, risk assessment, posture management, and runtime API protection integrated into F5's distributed cloud security platform.
-
-AWS WAF
-
-Managed AWS web application firewall that can be deployed to protect APIs and applications against common web exploits and malicious traffic.
-
-Microsoft Defender for APIs
-
-Cloud security capabilities for discovering, assessing, and monitoring API security risks within Microsoft Defender for Cloud.
-
-Google Cloud Armor
-
-Managed edge security service providing WAF and DDoS protection that can be deployed in front of API workloads.
-
-Astrix Security
-
-SaaS security platform focused on non-human identities, machine-to-machine connections, and API/service-account risks.
-
-Apono
-
-Identity and access platform supporting just-in-time access and authorization controls across infrastructure, applications, and APIs.
+| Platform | Description | Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **Akamai App & API Protector** | WAAP platform combining WAF, bot management, DDoS protection, and API security capabilities. | Starts at ~$3,500/month (~$42,000/year contract) or AWS Marketplace pay-as-you-go hourly deployment (~$0.50/hour + traffic) | No perpetual free tier. Offers a **30-day guided POC / trial** for qualifying enterprise domains. |
+| **Fastly Next-Gen WAF** | Edge-based application and API protection platform with WAF, bot mitigation, and security observability (formerly Signal Sciences). | Starts at ~$3,000/month ($36,000/year for Starter / Security Core tier) | No perpetual free tier. Offers a **30-day vendor-assisted Proof of Concept (POC) / trial** via Fastly sales. |
+| **F5 Distributed Cloud API Security** | API discovery, risk assessment, posture management, and runtime API protection integrated into F5's distributed cloud security platform. | Pay-as-you-go starting at **$3.704/hour** (Base Package) and **$0.328 per 1,000 requests** on AWS Marketplace (Annual Essentials starts at ~$15,000/year) | Offers a **30-day to 45-day free trial** on F5 Distributed Cloud console with full WAAP and API protection feature access. |
+| **AWS WAF** | Managed AWS web application firewall that can be deployed to protect APIs and applications against common web exploits and malicious traffic. | Pay-as-you-go: **$5.00/month per Web ACL** + **$1.00/month per rule** + **$0.60 per 1 million requests** processed | No free tier for Web ACLs ($5/mo baseline); includes **10 million requests/month free allowance** for AWS WAF Bot Control Common rules and 500 MB free CloudWatch log ingestion per 1M requests. |
+| **Microsoft Defender for APIs** | Cloud security capabilities for discovering, assessing, and monitoring API security risks within Microsoft Defender for Cloud. | Starts at **$200.02/month** (Plan 1 covers up to 1 million API calls/month; Plan 2 is $700.00/month up to 5 million calls) | Offers a **30-day free trial** per Azure subscription when Defender for APIs is first enabled (all API calls and security checks included during trial). |
+| **Google Cloud Armor** | Managed edge security service providing WAF and DDoS protection that can be deployed in front of API workloads. | Pay-as-you-go: **$5.00/month per security policy** + **$1.00/month per rule** + **$0.75 per 1 million requests** | No perpetual free tier. New Google Cloud accounts receive a **90-day $300 free trial credit** applicable to Cloud Armor policies, rules, and request traffic. |
+| **Astrix Security** | SaaS security platform focused on non-human identities, machine-to-machine connections, and API/service-account risks (acquired by Cisco). | Enterprise contracts historically started at ~$30,000/year (New standalone license sales ended June 30, 2026 due to integration into Cisco Security) | No public free tier or self-service trial available post-Cisco acquisition (previously offered 14-day POCs). |
+| **Apono** | Identity and access platform supporting just-in-time access and authorization controls across infrastructure, applications, and APIs. | Starts at **$49/user/month** (billed annually) | Offers a **30-day free trial** with full platform access to just-in-time access workflows and cloud/API integrations. |
 
 Open-Source GitHub Projects
 API Security Platforms & Discovery
